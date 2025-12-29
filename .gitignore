@@ -1,0 +1,31 @@
+# Arquivos de configuração locais
+*.env
+*.local
+
+# Dados sensíveis
+*.key
+*.pem
+*.pfx
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por IDEs
+.vscode/
+.idea/
+
+*.iml
+
+# Arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+# Pastas específicas para ignorar
+01-analise_python/
+02-analise-dados/
+03-analise_empresa/
